@@ -38,7 +38,7 @@ public class SortArrayOfStrings {
 		}
 		
 	}
-	// Sort is checking Alphabetically and in case of matching words the smallest word is taken first.
+	// Sort is checking Alphabetically and in case of overlapping words the shortest one is taken first.
 	public static boolean isFirstStringBeforeSecond(String firstString, String secondString){
 		char[] firstStringChar = firstString.toCharArray();
 		char[] secondStringChar = secondString.toCharArray();
